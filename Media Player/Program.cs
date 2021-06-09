@@ -16,7 +16,7 @@ namespace Media_Player
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());   //使用 Application.Run(new Login())进入登陆模式 Form1进入无登录模式
+            Application.Run(new Form1());   //使用 Application.Run(new login())进入登陆模式 Form1进入无登录模式
         }
     }
 }

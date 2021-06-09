@@ -153,10 +153,11 @@ namespace Media_Player
                 for (int i = 0; i <= FileName.Count-countBefor-1; i++)
                 {
                     listBox1.Items.Add(FileName[i+ countBefor]);
-                    Startindex+=1;
+                    Startindex +=1; //最后一首歌的下标
+                    
                 }
                 countBefor = FileName.Count;
-
+                listBox1.SelectedIndex = FileName.Count-1;    //移动指针到最后一行位置
                 //Startindex = 0;
                 playfile(Startindex);
                 
