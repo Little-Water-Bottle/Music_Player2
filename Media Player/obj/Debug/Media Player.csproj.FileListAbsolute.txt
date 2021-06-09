@@ -1,0 +1,46 @@
+D:\CSharpHomework\Media Player\Media Player\bin\Debug\Media Player.exe.config
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\Interop.WMPLib.dll
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\AxInterop.WMPLib.dll
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.csproj.ResolveComReference.cache
+D:\CSharpHomework\Media Player\Media Player\bin\Debug\Media Player.exe
+D:\CSharpHomework\Media Player\Media Player\bin\Debug\Media Player.pdb
+D:\CSharpHomework\Media Player\Media Player\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\CSharpHomework\Media Player\Media Player\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+D:\CSharpHomework\Media Player\Media Player\bin\Debug\Interop.WMPLib.dll
+D:\CSharpHomework\Media Player\Media Player\bin\Debug\AxInterop.WMPLib.dll
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.csprojResolveAssemblyReference.cache
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\Media_Player.Form1.resources
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\Media_Player.Properties.Resources.resources
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.csproj.GenerateResource.Cache
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.exe
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.pdb
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\Media_Player.login.resources
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\Media_Player.Test.resources
+D:\CSharpHomework\Media Player\Media Player\bin\Debug\Media Player.exe.manifest
+D:\CSharpHomework\Media Player\Media Player\bin\Debug\Media Player.application
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.exe.manifest
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.application
+D:\CSharpHomework\Media Player\Media Player\obj\Debug\Media_Player.LoginLoad.resources
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\bin\Debug\Media Player.exe.config
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\Interop.WMPLib.dll
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\AxInterop.WMPLib.dll
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.csproj.ResolveComReference.cache
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.exe
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.pdb
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\bin\Debug\Media Player.exe.manifest
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\bin\Debug\Media Player.application
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\bin\Debug\Media Player.exe
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\bin\Debug\Media Player.pdb
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\bin\Debug\Interop.WMPLib.dll
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\bin\Debug\AxInterop.WMPLib.dll
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\Media_Player.Form1.resources
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\Media_Player.login.resources
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\Media_Player.LoginLoad.resources
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\Media_Player.Properties.Resources.resources
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\Media_Player.Test.resources
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.csproj.GenerateResource.Cache
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.exe.manifest
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.application
+D:\应用程序\Visual Studio 2015\Projects\C#_Projects\CSharpHomework\Media Player\Media Player\obj\Debug\Media Player.csprojResolveAssemblyReference.cache
