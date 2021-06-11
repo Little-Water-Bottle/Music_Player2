@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 using System.Collections;
 using System.Windows.Forms;
 
@@ -46,6 +47,28 @@ namespace Media_Player
                 }
             }
         }
+
+        int _model = 0; //歌曲播放模式
+        bool flag = true;    //防止多次进入标志
+        public int whatModel
+        {
+            get
+            {
+                
+                return _model;
+            }
+            set
+            {
+                switch(_model)
+                {
+                    case 0: Model.Image = Sequence.Image; break;
+                    case 1: Model.Image = Random.Image; break; 
+                    case 2: Model.Image = SingleCycle.Image; break;
+                    default: break;
+                }
+            }
+        }
+
 
         private void bunifuCustomLabel3_Click(object sender, EventArgs e)
         {
@@ -230,7 +253,7 @@ namespace Media_Player
         {
 
         }
-
+        //Timer timer1 = new Timer();
         private void timer1_Tick(object sender, EventArgs e)
         {
             bunifuCustomLabel1.Text = axWindowsMediaPlayer1.Ctlcontrols.currentPositionString;
@@ -238,6 +261,28 @@ namespace Media_Player
             if(axWindowsMediaPlayer1.playState==WMPLib.WMPPlayState.wmppsPlaying)
             {
                 bunifuProgressBar1.Value = (int)axWindowsMediaPlayer1.Ctlcontrols.currentPosition;
+            }
+            if(bunifuProgressBar1.MaximumValue- bunifuProgressBar1.Value<=1 /*&& flag == true*/)
+            {
+                //flag = false;
+                switch (_model)
+                {
+                    case 0:
+                        Startindex = (Startindex + 1)% FileName.Count;
+                        listBox1.SelectedIndex = Startindex;
+                        break;   //顺序播放
+                    case 1:
+                        Random ran = new Random();
+                        Startindex = ran.Next(FileName.Count-1); 
+                        listBox1.SelectedIndex = Startindex;
+                        break; //随机播放
+                    case 2:  break;
+                }
+                playfile(Startindex);
+                Thread.Sleep(200);
+                // timer1.Interval = 10;
+
+                //flag = true;
             }
         }
 
@@ -261,12 +306,28 @@ namespace Media_Player
 
         private void bunifuProgressBar1_progressChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void bunifuImageButton5_Click(object sender, EventArgs e)
         {
             StopPlayer();
+        }
+
+        private void Sequence_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Model_Click(object sender, EventArgs e)
+        {
+            _model = (_model + 1) % 3;
+            whatModel = _model;
+            if (onActon != null)
+            {
+                onActon.Invoke(this, e);
+            }
+
         }
 
         private void bunifuCustomLabel4_Click_1(object sender, EventArgs e)

@@ -257,6 +257,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon2.ico" />
+    <None Include="Resources\单曲循环.png" />
+    <None Include="Resources\随机播放 %281%29.png" />
+    <None Include="Resources\随机播放1.png" />
+    <None Include="Resources\随机播放.png" />
+    <None Include="Resources\顺序循环 .png" />
+    <None Include="Resources\顺序循环.png" />
     <None Include="Resources\LoginLaoad.png" />
     <None Include="Resources\Snipaste_2020-12-30_08-32-37.png" />
   </ItemGroup>

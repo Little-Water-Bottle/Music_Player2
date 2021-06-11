@@ -253,6 +253,16 @@ namespace Media_Player.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 单曲循环 {
+            get {
+                object obj = ResourceManager.GetObject("单曲循环", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 卡通头像 {
             get {
                 object obj = ResourceManager.GetObject("卡通头像", resourceCulture);
@@ -313,9 +323,59 @@ namespace Media_Player.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 随机播放 {
+            get {
+                object obj = ResourceManager.GetObject("随机播放", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 随机播放__1_ {
+            get {
+                object obj = ResourceManager.GetObject("随机播放 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 随机播放1 {
+            get {
+                object obj = ResourceManager.GetObject("随机播放1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 音量 {
             get {
                 object obj = ResourceManager.GetObject("音量", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 顺序循环 {
+            get {
+                object obj = ResourceManager.GetObject("顺序循环", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 顺序循环_ {
+            get {
+                object obj = ResourceManager.GetObject("顺序循环 ", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
